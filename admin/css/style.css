@@ -1,0 +1,44 @@
+.vswps-preview-statistics {
+	cursor:pointer; 
+	cursor: hand;
+}
+table.vswps-ul-statistics {
+	border: 1px solid gray;
+}
+
+td.vswps-preview-statistics {
+	padding: 16px;
+	width: 100%;
+}
+
+table.vswps-ul-statistics td {
+	min-width: 5px;	
+}
+
+#vswps-list-statistics {
+	height: 600px;
+	overflow: auto;
+	width: auto;
+	border: 1px solid;
+	padding: 10px;
+}
+.vswps-form-statistics > p.submit {
+    display: contents;
+}
+
+@media screen and (max-width: 600px) {
+   table.vswps-ul-statistics tr td:first-child {
+	   font-size: 1.1em;
+	   padding: 0px;
+   }
+   table.vswps-ul-statistics td {
+	   display: block;
+	   text-align:center;
+	   padding: 0px;
+   }
+   table.vswps-ul-statistics td:before {
+	   content: attr(data-th);
+	   display: block;
+	   text-align:center;
+   }
+}
