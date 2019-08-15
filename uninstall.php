@@ -16,15 +16,13 @@
  * This file may be updated more in future version of the Boilerplate; however, this is the
  * general skeleton and outline for how the file should work.
  *
- * For more information, see the following discussion:
- * https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate/pull/123#issuecomment-28541913
  *
  * @link       https://github.com/jschaves/
  * @since      1.0.0
  *
- * @package    Very_Simple_Wp_Statistics
+ * @package    Very_Simple_Wp_Statistics_Bars
  */
-// If uninstall not called from WordPress, then exit.
+// If uninstall not called from wp, then exit.
 if ( ! defined('WP_UNINSTALL_PLUGIN' ) ) {
 	exit();
 }
