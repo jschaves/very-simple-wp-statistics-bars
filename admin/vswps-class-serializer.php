@@ -34,13 +34,12 @@ class VSWPS_Serializer {
             // TODO: Display an error message.
         }
         // If the above are valid, sanitize and save the option.
-        if( null !== wp_unslash( $_POST['title'] ) ) {
+        if( null !== sanitize_text_field( wp_unslash( $_POST['title'] ) ) ) {
 			//store in one variable
-			if(	wp_unslash( $_POST['edit'] ) == 'null' ) {
+			if(	sanitize_text_field( wp_unslash( $_POST['edit'] ) ) == 'null' ) {
 				$id = uniqid();
 			} else {
-				$id = wp_unslash( $_POST['edit'] );
-				//print_r($_POST);exit();
+				$id = sanitize_text_field( wp_unslash( $_POST['edit'] ) );
 			}
 
 			$value = "ID=" . $id . "," .
@@ -54,9 +53,9 @@ class VSWPS_Serializer {
         }
 		
         // If the above are valid, sanitize and delete the option.
-        if( null !== wp_unslash( $_POST['delete'] ) ) {
+        if( null !== sanitize_text_field( wp_unslash( $_POST['delete'] ) ) ) {
 			//store in one variable
-			$value = $_POST['delete'];
+			$value = sanitize_text_field( wp_unslash( $_POST['delete'] ) );
             delete_option( 'very_simple_wp_statistics_' . $value );
         }
         $this->redirect();
@@ -75,7 +74,7 @@ class VSWPS_Serializer {
         if( ! isset( $_POST['id-message'] ) ) { // Input var okay.
             return false;
         }
-        $field  = wp_unslash( $_POST['id-message'] );
+        $field  = sanitize_text_field( wp_unslash( $_POST['id-message'] ) );
         $action = 'settings-save';
         return wp_verify_nonce( $field, $action );
     }
