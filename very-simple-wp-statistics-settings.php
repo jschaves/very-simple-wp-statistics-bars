@@ -13,7 +13,7 @@
  * @package           Very_Simple_Wp_Statistics
  *
  * @wordpress-plugin
- * Plugin Name:       Very Simple WordPress Statistics
+ * Plugin Name:       Very Simple WP Statistics
  * Plugin URI:        https://github.com/jschaves/very-simple-wp-statistics
  * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
  * Version:           1.0.0

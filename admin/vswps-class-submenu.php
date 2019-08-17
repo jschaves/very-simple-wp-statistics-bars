@@ -42,7 +42,7 @@ class VSWPS_Submenu {
      */
     public function add_options_page() {
         add_options_page(
-            'Very Simple WordPress Statistics',
+            'Very Simple WP Statistics',
             'VSWP Statistics',
             'manage_options',
             'very-simple-wp-statistics-settings',

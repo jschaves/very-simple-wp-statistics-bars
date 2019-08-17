@@ -34,29 +34,29 @@ if ( ! defined( 'WPINC' ) ) {
 					<input name="title" type="text" style="width:300px" class="vswpp-new" id="vswps-title" value="" maxlength="100" required />
 				</p>
                 <p>
-                    <label><?php esc_html_e( 'Number of bars' ); ?></label>
+                    <label><?php esc_html_e( 'Number of bars', 'very-simple-wp-statistics' ); ?></label>
                     <br />
                     <input style="width:65px" id="vswps-n-bars" type="number" class="vswpp-new" name="vswps-n-bars" min="1" max="100" value="1" required />
                 </p>
                 <p>
-                    <label><?php esc_html_e( 'Height bars' ); ?></label>
+                    <label><?php esc_html_e( 'Height bars', 'very-simple-wp-statistics' ); ?></label>
                     <br />
                     <input style="width:65px" id="vswps-height-bars" type="number" class="vswpp-new" name="vswps-height-bars" min="10" max="1999" value="25" required />
                 </p>
 				<p>	
-					<label><?php esc_html_e( 'Percentage in bars', 'very-simple-wp-popup' ); ?></label>
+					<label><?php esc_html_e( 'Percentage in bars', 'very-simple-wp-statistics'  ); ?></label>
 					<span id="vswps-add-percentage"></span>
 				</p>
 				<p>
-					<label><?php esc_html_e( 'Color of the bars', 'very-simple-wp-popup' ); ?></label>
+					<label><?php esc_html_e( 'Color of the bars', 'very-simple-wp-statistics'  ); ?></label>
 					<span id="vswps-add-color"></span>
 				</p>
 				<p>
-					<label><?php esc_html_e( 'Color of the text', 'very-simple-wp-popup' ); ?></label>
+					<label><?php esc_html_e( 'Color of the text', 'very-simple-wp-statistics'  ); ?></label>
 					<span id="vswps-add-color-text"></span>
 				</p>
 				<p>
-					<label><?php esc_html_e( 'Text of the bars', 'very-simple-wp-popup' ); ?></label>
+					<label><?php esc_html_e( 'Text of the bars', 'very-simple-wp-statistics'  ); ?></label>
 					<span id="vswps-add-text"></span>
 				</p>
 				<input id="vswps-data-save-percentage" type="hidden" name="vswps-data-save-percentage" required />
@@ -78,8 +78,8 @@ if ( ! defined( 'WPINC' ) ) {
 <p><span id="vswps-paint" style="display:none" ></span></p>
 <br />
 <br />
-<h3><?php esc_html_e( 'Saved Statisticss', 'very-simple-wp-statistics' ); ?></h3>
-<p><?php esc_html_e( 'Click Copy for the selected pop-up and paste it in the page where you want it to appear.',  'very-simple-wp-statistics' ); ?></p>
+<h3><?php esc_html_e( 'Saved Statistics', 'very-simple-wp-statistics' ); ?></h3>
+<p><?php esc_html_e( 'Click Copy for the selected Statistic and paste it in the page where you want it to appear.', 'very-simple-wp-statistics' ); ?></p>
 <br />
 <div id="vswps-list-statistics">
 <?php 

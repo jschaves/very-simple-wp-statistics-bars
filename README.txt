@@ -1,6 +1,6 @@
 === Very Simple WP Statistics Bars ===
 Contributors: jchaves
-Version:	1.2
+Version:	1.0
 Tags: statistics, bars
 Stable tag: trunk
 Requires at least: 4.4
@@ -27,7 +27,7 @@ Installation for General Use
 
 == Screenshots ==
 
-1. screenshot-1.jpg
-2. screenshot-2.jpg
+1. screenshot-1.png
+2. screenshot-2.png
 
 == Changelog ==
