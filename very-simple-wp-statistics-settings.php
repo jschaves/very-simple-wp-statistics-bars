@@ -9,14 +9,14 @@
  * that starts the plugin.
  *
  * @link              https://github.com/jschaves/
- * @since             1.0.0
+ * @since             1.1
  * @package           Very_Simple_Wp_Statistics
  *
  * @wordpress-plugin
  * Plugin Name:       Very Simple WP Statistics
  * Plugin URI:        https://github.com/jschaves/very-simple-wp-statistics
  * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version:           1.0.0
+ * Version:           1.1
  * Author:            Juan Chaves
  * Author URI:        https://github.com/jschaves/
  * License:           GPL-2.0+
