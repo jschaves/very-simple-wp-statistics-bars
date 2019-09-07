@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-07-16 10:44+0530\n"
+"PO-Revision-Date: 2019-08-17 11:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: /admin/views/vswpp-settings.php:26
+msgid "The statistics data was inserted in the form. Make the changes and then save the form"
+msgstr "Los datos estadísticos se insertaron en el formulario. Realice los cambios y luego guarde el formulario"
+
+#: /admin/views/vswpp-settings.php:29
+msgid "Statistics Configurator"
+msgstr "Configurador de la estadística"
+
+#: /admin/views/vswpp-settings.php:37
+msgid "Number of bars"
+msgstr "Número de barras"
+
+#: /admin/views/vswpp-settings.php:42
+msgid "Height bars"
+msgstr "Altura de la barras"
+
+#: /admin/views/vswpp-settings.php:47
+msgid "Percentage in bars"
+msgstr "Porcentage de las barras"
+
+#: /admin/views/vswpp-settings.php:52
+msgid "Color of the bars"
+msgstr "Colores de las barras"
+
+#: /admin/views/vswpp-settings.php:55
+msgid "Color of the text"
+msgstr "Colores de los textos"
+
+#: /admin/views/vswpp-settings.php:59
+msgid "Text of the bars"
+msgstr "Textos en las barras"
+
+#: /admin/views/vswpp-settings.php:81
+msgid "Saved Statistics"
+msgstr "Guardar estadística"
+
+#: /admin/views/vswpp-settings.php:82
+msgid "Click Copy for the selected Statistic and paste it in the page where you want it to appear."
+msgstr "Haga clic en Copiar para la estadística seleccionada y péguela en la página donde desea que aparezca."
